@@ -6,9 +6,7 @@
 
 
 function getSecond() {
-    return new Date().getSeconds()/* + 
-      new Date().getMinutes() * 60 + 
-      new Date().getHours() * 3600;*/
+    return new Date().getSeconds()
 }
 
 function getMinute() {
@@ -16,9 +14,7 @@ function getMinute() {
 }
 
 function getHour() {
-    return /*new Date().getSeconds() + 
-      new Date().getMinutes() * 60 + */
-      new Date().getHours() * 3600;
+    return new Date().getHours();
 }
 
 
@@ -39,6 +35,11 @@ setInterval( function() {
     minute.style.transform = "rotate(" + minuteDegree + "deg)";
     console.log(minute.style.transform);
 
-    
-    // your code here
+    var timeHour = getHour();
+    console.log(timeHour);
+    var hourDegree = timeHour * 30 + 180;
+    console.log(hourDegree);
+    var hour = document.querySelector("#hours");
+    hour.style.transform = "rotate(" + hourDegree + "deg)";
+    console.log(hour.style.transform);
 }, 1000);
