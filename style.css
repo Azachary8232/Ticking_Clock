@@ -20,6 +20,7 @@
     background-color: red;
     height: 130px;
     width: 2px;
+    transform: rotate(0deg);
 }
 
 #hours {
