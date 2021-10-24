@@ -40,15 +40,19 @@
 .numRod{
     height: 1px;
     width: 125px;
-    background-color: blue;
+    /* background-color: blue; */
     display: inline-block;
 }
 
 .numRod2{
     height: 1px;
     width: 110px;
-    background-color: blue;
+    /* background-color: blue; */
     display: inline-block;
+}
+
+.nimRod3{
+    width: 120px;
 }
 
 
@@ -63,6 +67,34 @@
     transform-origin: center left;
 }
 
+#rod1{
+    transform: rotate(300deg);
+}
+#num1{
+    transform: rotate(60deg);
+}
+
+#rod2{
+    transform: rotate(330deg);
+}
+#num2{
+    transform: rotate(30deg);
+}
+
+#rod4{
+    transform: rotate(30deg);
+}
+#num4{
+    transform: rotate(330deg);
+}
+
+#rod5{
+    transform: rotate(60deg);
+}
+#num5{
+    transform: rotate(300deg);
+}
+
 #rod6{
     transform: rotate(90deg);
 }
@@ -70,11 +102,39 @@
     transform: rotate(270deg);
 }
 
+#rod7{
+    transform: rotate(120deg);
+}
+#num7{
+    transform: rotate(240deg);
+}
+
+#rod8{
+    transform: rotate(150deg);
+}
+#num8{
+    transform: rotate(210deg);
+}
+
 #rod9{
     transform: rotate(180deg);
 }
 #num9{
     transform: rotate(180deg);
+}
+
+#rod10{
+    transform: rotate(210deg);
+}
+#num10{
+    transform: rotate(150deg);
+}
+
+#rod11{
+    transform: rotate(240deg);
+}
+#num11{
+    transform: rotate(120deg);
 }
 
 #rod12{
