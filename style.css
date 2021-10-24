@@ -44,6 +44,14 @@
     display: inline-block;
 }
 
+.numRod2{
+    height: 1px;
+    width: 110px;
+    background-color: blue;
+    display: inline-block;
+}
+
+
 .num{
     display: inline-block;
     font-size: 24pt;
@@ -52,4 +60,28 @@
 
 .numRodPos{
     margin-top: -7.5%;
+    transform-origin: center left;
 }
+
+#rod6{
+    transform: rotate(90deg);
+}
+#num6{
+    transform: rotate(270deg);
+}
+
+#rod9{
+    transform: rotate(180deg);
+}
+#num9{
+    transform: rotate(180deg);
+}
+
+#rod12{
+    transform: rotate(270deg);
+}
+#num12{
+    transform: rotate(90deg);
+}
+
+
