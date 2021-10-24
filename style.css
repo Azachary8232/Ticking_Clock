@@ -9,7 +9,7 @@
     margin-top: 100px;
 }
 
-#minutes, #hours, #seconds {
+#minutes, #hours, #seconds, .numRodPos{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -35,4 +35,21 @@
     height: 120px;
     width: 4px;
     transform: rotate(255deg);
+}
+
+.numRod{
+    height: 1px;
+    width: 125px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.num{
+    display: inline-block;
+    font-size: 24pt;
+    margin: 0px;
+}
+
+.numRodPos{
+    margin-top: -7.5%;
 }
